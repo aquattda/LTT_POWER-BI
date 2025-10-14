@@ -6,42 +6,42 @@
 
 - Methods that can getData in PBI: Methods that can getData in PBI:
 
-\+ File CSV/XLSX…
++ File CSV/XLSX…
 
-\+ Scrape data about the website (Can learn)
++ Scrape data about the website (Can learn)
 
-\+ Get data from the API (Can learn)
++ Get data from the API (Can learn)
 
-- ETL (EXTRACT, TRANSFORM, LOAD) is a process used in data warehousing and data integration. Extract data from various (/ˈver.i.əs/: đa dạng) sources (&lt;/sɔːrs/&gt;), transforming it into a suitable (phù hợp) format, and loading it into a target database or data warehouse. This process helps in consolidating (consolidate /kənˈsɑː.lə.deɪt/: Hợp nhất) data for analysis and reporting purposes. (purpose /ˈpɝː.pəs/ = aim = target: Mục đích)
+- ETL (EXTRACT, TRANSFORM, LOAD) is a process used in data warehousing and data integration. Extract data from various (/ˈver.i.əs/: đa dạng) sources (<sɔːrs/>), transforming it into a suitable (phù hợp) format, and loading it into a target database or data warehouse. This process helps in consolidating (consolidate /kənˈsɑː.lə.deɪt/: Hợp nhất) data for analysis and reporting purposes. (purpose /ˈpɝː.pəs/ = aim = target: Mục đích)
 
-**POWER BI – DAY 2**
+POWER BI – DAY 2
 
-**CLEAN DATA**
+CLEAN DATA
 
-**Important concepts:**
+Important concepts:
 
 - Before cleaning data, you need to adjust some things:
 
 <<<<<<<<<<<<<IMAGE>>>>>>>>>>>>>>>>>>>>>>>>>
 - Differences when using Filter with EXCEL and PBI:
 
-\+ Excel: After using the filter, the filtered data will disappear /ˌdɪs.əˈpɪr/ (Be gone: Mất tiêu lun).
++ Excel: After using the filter, the filtered data will disappear /ˌdɪs.əˈpɪr/ (Be gone: Mất tiêu lun).
 
-\+ PBI: After using the filter, the filltered data will be hidden Sau khi sử dụng Filter thì dữ liệu chỉ bị ẩn đi
++ PBI: After using the filter, the filltered data will be hidden Sau khi sử dụng Filter thì dữ liệu chỉ bị ẩn đi
 
-**POWER BI – DAY 3**
+POWER BI – DAY 3
 
-**DATA MODEL (Star schema)**
+DATA MODEL (Star schema)
 
-**Important concepts:**
+Important concepts:
 
 - Relationship and Keys (Primary Key and Foreign Key)
 
-\+ Normally, table has a single primary key, but it's also possible to have more than one (Uncommon).
++ Normally, table has a single primary key, but it's also possible to have more than one (Uncommon).
 
-\+ UUID (Universally unique identifier /aɪˈdentɪfaɪər/) (128-bit) provides a huge range (Almost infinite /ˈɪn.fə.nət/ range), while INT (32-bit) supports values (~ 2 bilion)
++ UUID (Universally unique identifier /aɪˈdentɪfaɪər/) (128-bit) provides a huge range (Almost infinite /ˈɪn.fə.nət/ range), while INT (32-bit) supports values (~ 2 bilion)
 
-\+ In this data model, 'Data' is the Fact table, and 'Lookup' is the Dimension table.
++ In this data model, 'Data' is the Fact table, and 'Lookup' is the Dimension table.
 
 <<<<<<<<<<<<<IMAGE>>>>>>>>>>>>>>>>>>>>>>>>>
 
